@@ -1,7 +1,7 @@
-import { Courses } from './courses.entity';
+import { Course } from './entities/courses.entity';
 
 describe('Course', () => {
   it('should be defined', () => {
-    expect(new Courses()).toBeDefined();
+    expect(new Course()).toBeDefined();
   });
 });

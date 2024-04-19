@@ -1,9 +1,9 @@
 {
-  "singleQuote": true,
+  "semi": false,
   "trailingComma": "all",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-  
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "arrowParens": "avoid",
+	"editor.formatOnSave": true
 }
